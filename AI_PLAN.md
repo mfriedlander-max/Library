@@ -8,6 +8,7 @@ Source of truth for all work. No feature branch may exist without a section here
 
 | File | Audience | Purpose |
 |------|----------|---------|
+| `CLAUDE.md` | AI | Auto-loaded on session start; points to AI_PLAN.md |
 | `README.md` | Humans | Project overview, how to run/test, high-level TODO |
 | `AI_PLAN.md` | AI | Workflow rules, skills, branch sections, task details |
 | `AI_SCRATCHPAD.md` | Both | Append-only audit trail of completed work |
@@ -108,5 +109,12 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 - [ ] All tests pass
 - [ ] E2E verification passes (or N/A justified)
 - [ ] Results written to AI_SCRATCHPAD.md
+- [ ] Branch section moved to Archive
 
 -->
+
+---
+
+## Archive
+
+Merged branch sections are moved here for reference. To edit a feature, create a new branch and reference the archived section.
