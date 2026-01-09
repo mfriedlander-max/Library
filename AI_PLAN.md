@@ -33,7 +33,7 @@ This project uses the **superpowers** skill system. Skills are mandatory, not op
 
 ### Testing Requirements
 - **Unit tests:** Strict TDD (RED → GREEN → REFACTOR)
-- **E2E tests:** Verification gate before merge (Playwright MCP)
+- **E2E tests:** Verification gate before merge. Use MCP Playwright tools (`browser_navigate`, `browser_snapshot`, `browser_click`, etc.) to navigate the app, inspect/critique the UI, compare against other UIs for inspiration, and validate critical user-facing flows.
 
 ### Token Optimization
 | Task Type | Strategy |
