@@ -134,10 +134,3 @@ Merged branch sections are moved here for reference. To edit a feature, create a
 **Summary:** <brief description of what was done>
 ```
 
-### feature/test-workflow (merged 2026-01-09)
-
-**Goal:** Test the workflow end-to-end to find potential issues.
-
-**Files:** `src/utils.js`, `tests/utils.test.js`
-
-**Summary:** Created `add()` utility with TDD. Set up Jest framework.

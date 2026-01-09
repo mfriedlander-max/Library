@@ -1,27 +1,33 @@
-# Library
+# Project Name
 
-A workflow reference repository demonstrating the AI Development Workflow pattern.
+[One-line description of what this project does.]
 
 ## Purpose
 
-This repo serves as a template and sandbox for the enforced AI development workflow:
-- Strict branch model (`main` → `dev` → `feature/*`)
-- Required documentation (AI_PLAN.md, AI_SCRATCHPAD.md)
-- TDD for units, E2E as verification gates
-- Parallel agent patterns with file ownership
+[2-3 sentences about the project's goal and value.]
 
 ## TODO
 
-- [ ] Validate workflow with first feature implementation
+- [ ] First feature
+- [ ] Second feature
 
 ## Current Status
 
-Repository initialized with workflow structure.
+Project initialized with workflow structure.
 
 ## Next Priorities
 
-Apply this workflow to a real project.
+[What to work on next.]
 
 ## How to Run / Test
 
-No application code yet. This is a workflow reference.
+```bash
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start the app
+npm start
+```
