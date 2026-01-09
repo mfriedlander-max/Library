@@ -4,6 +4,16 @@ Source of truth for all work. No feature branch may exist without a section here
 
 ---
 
+## Required Files
+
+| File | Audience | Purpose |
+|------|----------|---------|
+| `README.md` | Humans | Project overview, how to run/test, high-level TODO |
+| `AI_PLAN.md` | AI | Workflow rules, skills, branch sections, task details |
+| `AI_SCRATCHPAD.md` | Both | Append-only audit trail of completed work |
+
+---
+
 ## Workflow (Required Skills)
 
 This project uses the **superpowers** skill system. Skills are mandatory, not optional.
