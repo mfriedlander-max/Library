@@ -47,6 +47,11 @@ This project uses the **superpowers** skill system. Skills are mandatory, not op
 - **Pattern A (multiple branches):** Independent features → separate `feature/*` branches via worktrees
 - **Pattern B (single branch):** One feature with sub-tasks → declare file ownership below, no overlap allowed
 
+### Abandoned Branches
+If a branch is abandoned (wrong approach, blocked, etc.):
+1. Delete the branch
+2. Log in AI_SCRATCHPAD.md: date, branch name, reason for abandonment, any lessons learned
+
 ---
 
 ## Branch Map
@@ -55,6 +60,8 @@ This project uses the **superpowers** skill system. Skills are mandatory, not op
 |--------|--------|-------------|
 | `main` | active | Branch of truth |
 | `dev` | active | Integration branch |
+
+**Status values:** `active` (permanent branches), `in-progress`, `blocked`, `merged`, `abandoned`
 
 ---
 
