@@ -70,7 +70,7 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 ## Branch: feature/<slug>
 
 ### Goal
-[What this branch accomplishes]
+[What this branch accomplishes. If modifying existing functionality, reference the original feature.]
 
 ### Scope
 **Included:**
