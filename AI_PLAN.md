@@ -71,48 +71,9 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 |--------|--------|-------------|
 | `main` | active | Branch of truth |
 | `dev` | active | Integration branch |
-| `feature/test-workflow` | in-progress | Testing workflow E2E |
+| `feature/test-workflow` | merged | Testing workflow E2E |
 
 **Status values:** `active` (permanent branches), `in-progress`, `blocked`, `merged`, `abandoned`
-
----
-
-## Branch: feature/test-workflow
-
-### Goal
-Test the workflow end-to-end to find potential issues.
-
-### Scope
-**Included:**
-- Create a simple utility function
-- Write unit test (TDD)
-- Complete full merge cycle
-
-**Excluded:**
-- E2E tests (no UI in this repo)
-
-### Tasks
-- [x] Write failing test for `add()` function
-- [x] Implement `add()` to pass test
-- [x] Run verification
-
-### Files
-| File | Owner |
-|------|-------|
-| `src/utils.js` | Agent-1 |
-| `tests/utils.test.js` | Agent-1 |
-
-### Verification
-```bash
-npm test
-```
-
-### Definition of Done
-- [x] All tasks complete
-- [x] All tests pass
-- [x] E2E verification passes (or N/A justified) - N/A: no UI
-- [x] Results written to AI_SCRATCHPAD.md
-- [ ] Branch section moved to Archive
 
 ---
 
@@ -158,3 +119,11 @@ npm test
 ## Archive
 
 Merged branch sections are moved here for reference. To edit a feature, create a new branch and reference the archived section.
+
+### feature/test-workflow (merged 2026-01-09)
+
+**Goal:** Test the workflow end-to-end to find potential issues.
+
+**Files:** `src/utils.js`, `tests/utils.test.js`
+
+**Summary:** Created `add()` utility with TDD. Set up Jest framework.
