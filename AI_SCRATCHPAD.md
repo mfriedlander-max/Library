@@ -23,3 +23,32 @@ Append-only log of completed work. Never rewrite history.
 
 **Verification:**
 - N/A (initial setup, no code to test)
+
+---
+
+## 2026-01-09 | feature/test-workflow
+
+**Summary:** E2E test of the workflow - created simple `add()` utility with TDD.
+
+**Changes:**
+- Added `src/utils.js` with `add()` function
+- Added `tests/utils.test.js` with unit tests
+- Set up Jest test framework (`package.json`)
+
+**Key Decisions:**
+- Used Jest for testing (simple, widely used)
+- Followed strict TDD: wrote failing test first, then implementation
+
+**Known Issues / Follow-ups:**
+- See "Issues Found" section below for workflow improvements identified
+
+**Verification:**
+```
+npm test
+PASS tests/utils.test.js
+  add
+    ✓ adds two numbers (1 ms)
+    ✓ handles negative numbers
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+```
