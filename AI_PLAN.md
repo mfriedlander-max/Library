@@ -63,6 +63,9 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 1. Delete the branch
 2. Log in AI_SCRATCHPAD.md: date, branch name, reason for abandonment, any lessons learned
 
+### Project Setup
+First feature branch should include `.gitignore` for the tech stack (e.g., `node_modules/`, `.env`, etc.).
+
 ---
 
 ## Branch Map
@@ -71,14 +74,18 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 |--------|--------|-------------|
 | `main` | active | Branch of truth |
 | `dev` | active | Integration branch |
-| `feature/test-workflow` | merged | Testing workflow E2E |
 
-**Status values:** `active` (permanent branches), `in-progress`, `blocked`, `merged`, `abandoned`
+**Status values:** `active` (permanent branches), `in-progress`, `blocked`, `abandoned`
+
+**Note:** Remove merged/abandoned branches from this table after archiving. History lives in Archive section.
 
 ---
 
-<!-- Template for new branches:
+## Branch Template
 
+> Copy this template when creating a new feature branch section. Do not edit the template itself.
+
+```markdown
 ## Branch: feature/<slug>
 
 ### Goal
@@ -101,9 +108,9 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 | `path/to/file` | Agent-1 |
 
 ### Verification
-```bash
+\`\`\`bash
 # Commands to verify this branch
-```
+\`\`\`
 
 ### Definition of Done
 - [ ] All tasks complete
@@ -111,14 +118,21 @@ If a branch is abandoned (wrong approach, blocked, etc.):
 - [ ] E2E verification passes (or N/A justified)
 - [ ] Results written to AI_SCRATCHPAD.md
 - [ ] Branch section moved to Archive
-
--->
+```
 
 ---
 
 ## Archive
 
 Merged branch sections are moved here for reference. To edit a feature, create a new branch and reference the archived section.
+
+**Archive format:**
+```
+### <branch-name> (merged YYYY-MM-DD)
+**Goal:** <one-line summary>
+**Files:** <key files changed>
+**Summary:** <brief description of what was done>
+```
 
 ### feature/test-workflow (merged 2026-01-09)
 
